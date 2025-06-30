@@ -138,21 +138,7 @@ const HeroSection = () => {
 </div>
 
 
-        {/* Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-4xl animate-fade-in-up" style={{ animationDelay: '1.4s' }}>
-          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all duration-300 hover:scale-105 cursor-pointer">
-            <div className="text-3xl font-bold text-white mb-2">50K+</div>
-            <div className="text-gray-300">Active Jobs</div>
-          </div>
-          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all duration-300 hover:scale-105 cursor-pointer">
-            <div className="text-3xl font-bold text-white mb-2">25K+</div>
-            <div className="text-gray-300">Companies</div>
-          </div>
-          <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all duration-300 hover:scale-105 cursor-pointer">
-            <div className="text-3xl font-bold text-white mb-2">100K+</div>
-            <div className="text-gray-300">Success Stories</div>
-          </div>
-        </div>
+
 
         {/* Scroll indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
