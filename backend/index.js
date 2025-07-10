@@ -21,10 +21,10 @@ app.use(cookieParser());
 
 // ✅ CORS Setup
 const corsOptions = {
-  origin: ["https://street-bites-rho.vercel.app", "http://localhost:5173"],
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-  exposedHeaders: ['set-cookie'],
+  origin: ["https://jobportal-gg-f1g2.onrender.com","http://localhost:5173"],
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    exposedHeaders: ['set-cookie']
   credentials: true, // ✅ Needed for cross-origin cookies!
 };
 
